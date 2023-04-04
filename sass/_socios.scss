@@ -1,0 +1,51 @@
+.body-socios {
+    width: 100%;
+    height: auto;  
+    @include dFC; 
+    padding-top: 22.5vh;
+    padding-bottom: 22.5vh;
+    &__form {
+        width: 80%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        gap: 3vh;
+        &__h2-socios {
+            width: 100%;
+            height: auto;
+            @include dFC; 
+            color: white;
+            font-family: 'Merienda', cursive;
+            font-size: 22px;
+            &:hover {
+                color: $amarilloQueCorte;
+            }            
+        }
+        &__label-input-socios {
+            width: 100%;
+            height: 10%;
+            display: grid;
+            grid-template-columns: 1fr 3fr;
+            gap: 10px;
+            color: white;
+        }
+        &__wid-hei-socios {
+            width: 100%;
+            height: auto;        
+        }
+        &__btn-socios {
+            width: 100%;
+            height: auto;
+            @include dFC;
+            &__prop {          
+                font-size: 13.5px;
+                font-weight: 500;
+                &:hover {
+                    background-color: white;
+                    color: black;
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,795 @@
+@charset "UTF-8";
+.body-index {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 1vh;
+  padding-top: 16vh;
+  padding-bottom: 16vh;
+}
+
+.body-turnos {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  padding-top: 18vh;
+  padding-bottom: 18vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-turnos__regitro-turnos {
+  background-color: black;
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border: 3px solid white;
+  padding: 10px;
+}
+.body-turnos__regitro-turnos__h2 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Merienda", cursive;
+}
+.body-turnos__regitro-turnos__h2:hover {
+  color: yellow;
+}
+.body-turnos__regitro-turnos__selecc-peluqueros {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+.body-turnos__regitro-turnos__selecc-peluqueros__prop {
+  width: 115px;
+  height: auto;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.body-turnos__regitro-turnos__selecc-peluqueros__prop:hover {
+  background-color: white;
+  color: black;
+}
+.body-turnos__regitro-turnos__labels {
+  color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  font-family: "Roboto Mono", monospace;
+  font-weight: bolder;
+}
+.body-turnos__regitro-turnos__inputs {
+  background-color: white;
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.body-turnos__regitro-turnos__input-date {
+  width: 70%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-self: center;
+  margin-top: 1vh;
+}
+.body-turnos__regitro-turnos__horarios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2vh;
+  gap: 2px;
+}
+.body-turnos__regitro-turnos__horarios__tm {
+  width: 115px;
+  height: auto;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.body-turnos__regitro-turnos__horarios__tm:hover {
+  background-color: white;
+  color: black;
+}
+.body-turnos__regitro-turnos__horarios__tt {
+  width: 115px;
+  height: auto;
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.body-turnos__regitro-turnos__horarios__tt:hover {
+  background-color: white;
+  color: black;
+}
+.body-turnos__regitro-turnos__btn-regitrar-turno {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  margin-bottom: 0.2vh;
+}
+.body-turnos__regitro-turnos__btn-regitrar-turno__prop {
+  font-size: 13.5px;
+  font-weight: 500;
+  background-color: yellow;
+}
+.body-turnos__regitro-turnos__btn-regitrar-turno__prop:hover {
+  background-color: white;
+  color: black;
+}
+
+.body-cortes {
+  width: 100%;
+  height: auto;
+  padding-top: 16.5vh;
+  padding-bottom: 16.5vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5vh;
+}
+.body-cortes__cortes {
+  width: 100%;
+  height: auto;
+}
+
+.body-sobre-nosotros {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 19.5vh;
+  padding-bottom: 19.5vh;
+}
+.body-sobre-nosotros__texto {
+  width: 80%;
+  height: auto;
+  color: white;
+  text-align: justify;
+}
+
+.body-socios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 22.5vh;
+  padding-bottom: 22.5vh;
+}
+.body-socios__form {
+  width: 80%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  gap: 3vh;
+}
+.body-socios__form__h2-socios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Merienda", cursive;
+  font-size: 22px;
+}
+.body-socios__form__h2-socios:hover {
+  color: yellow;
+}
+.body-socios__form__label-input-socios {
+  width: 100%;
+  height: 10%;
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 10px;
+  color: white;
+}
+.body-socios__form__wid-hei-socios {
+  width: 100%;
+  height: auto;
+}
+.body-socios__form__btn-socios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.body-socios__form__btn-socios__prop {
+  font-size: 13.5px;
+  font-weight: 500;
+}
+.body-socios__form__btn-socios__prop:hover {
+  background-color: white;
+  color: black;
+}
+
+body {
+  background-color: black;
+}
+
+.btn-color {
+  background-color: yellow;
+}
+
+.header-desk {
+  display: none;
+}
+
+.header-mobile {
+  background-color: black;
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 2fr 3fr 2fr;
+  grid-template-rows: 1fr;
+  border-bottom: 3px solid yellow;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+.header-mobile__logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-mobile__logo__tamaño {
+  width: 70%;
+  height: auto;
+}
+.header-mobile__titulo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-mobile__titulo__tamaño {
+  width: 70%;
+  height: auto;
+}
+.header-mobile__nav {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header-mobile__nav__wid-dropdown {
+  width: 90%;
+  height: auto;
+}
+.header-mobile__nav__wid-dropdown__prop {
+  font-weight: 500;
+}
+.header-mobile__nav__wid-dropdown__text-dec-href {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 15vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  border-top: 3px solid yellow;
+  position: fixed;
+  bottom: 0;
+  z-index: 5;
+}
+.footer__face {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.footer__face__logo-label {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 10% auto auto 10%;
+  grid-template-rows: 1fr;
+}
+.footer__face__logo-label__logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__face__logo-label__logo__img-dim {
+  width: 70%;
+  height: auto;
+}
+.footer__face__logo-label__label {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: white;
+}
+.footer__face__logo-label__label:hover {
+  color: yellow;
+}
+.footer__titulo-copyrigth {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 70% 30%;
+}
+.footer__titulo-copyrigth__titulo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  font-size: 12px;
+}
+.footer__titulo-copyrigth__copyrigth {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50%;
+  color: white;
+}
+.footer__insta {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 2fr 1fr;
+}
+.footer__insta__logo-label {
+  width: 100%;
+  height: auto;
+  display: grid;
+  grid-template-columns: auto auto 15%;
+  grid-template-rows: 1fr;
+}
+.footer__insta__logo-label__logo {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer__insta__logo-label__logo__img-dim {
+  width: 60%;
+  height: auto;
+}
+.footer__insta__logo-label__label {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 11px;
+  color: white;
+}
+.footer__insta__logo-label__label:hover {
+  color: yellow;
+}
+
+@media (min-width: 425px) {
+  .header-mobile__logo__tamaño {
+    width: 60%;
+    height: auto;
+  }
+  .header-mobile__titulo__tamaño {
+    width: 65%;
+    height: auto;
+  }
+  .header-mobile__nav__wid-dropdown__prop {
+    width: 85px;
+    height: auto;
+  }
+  .body-sobre-nosotros__texto {
+    font-size: 16.5px;
+  }
+  .footer__titulo-copyrigth__titulo {
+    font-size: 14px;
+  }
+  .footer__titulo-copyrigth__copyrigth {
+    font-size: 9px;
+  }
+}
+@media (orientation: landscape) and (max-width: 767px) {
+  .header-mobile {
+    height: 25vh;
+  }
+  .header-mobile__logo__tamaño {
+    width: 35%;
+  }
+  .header-mobile__titulo__tamaño {
+    width: 40%;
+  }
+  .header-mobile__nav__wid-dropdown__prop {
+    width: 115px;
+  }
+  .body-index {
+    padding-top: 30vh;
+    padding-bottom: 5vh;
+    gap: 5vh;
+  }
+  .body-turnos {
+    padding-top: 35vh;
+    padding-bottom: 10vh;
+  }
+  .body-cortes {
+    padding-top: 30vh;
+    padding-bottom: 5vh;
+    gap: 5vh;
+  }
+  .body-cortes__cortes {
+    width: 90%;
+  }
+  .body-sobre-nosotros {
+    padding-top: 30vh;
+    padding-bottom: 5vh;
+  }
+  .body-sobre-nosotros__texto {
+    font-size: 15px;
+  }
+  .body-socios {
+    padding-top: 35vh;
+    padding-bottom: 10vh;
+  }
+  .body-socios__form {
+    width: 65%;
+  }
+  .footer {
+    height: 25vh;
+    position: relative;
+  }
+  .footer__face__logo-label__logo__img-dim {
+    width: 40%;
+    height: auto;
+  }
+  .footer__face__logo-label__label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  .footer__titulo-copyrigth__titulo {
+    font-size: 14px;
+  }
+  .footer__insta__logo-label {
+    grid-template-columns: auto auto;
+  }
+  .footer__insta__logo-label__logo__img-dim {
+    width: 30%;
+    height: auto;
+  }
+  .footer__insta__logo-label__label {
+    width: 40%;
+    height: auto;
+    font-size: 14px;
+  }
+  .footer__titulo-copyrigth__copyrigth {
+    font-size: 9px;
+  }
+}
+/* tablet */
+@media (min-width: 665px) and (max-width: 1024px) {
+  .header-mobile__logo__tamaño {
+    width: 35%;
+    height: auto;
+  }
+  .header-mobile__titulo__tamaño {
+    width: 50%;
+    height: auto;
+  }
+  .header-mobile__nav__wid-dropdown__prop {
+    width: 150px;
+    height: 35px;
+  }
+  .body-turnos__regitro-turnos {
+    width: 70%;
+  }
+  .body-turnos__regitro-turnos__selecc-peluqueros__prop {
+    width: 200px;
+  }
+  .body-turnos__regitro-turnos__input-date {
+    width: 400px;
+    height: auto;
+  }
+  .body-turnos__regitro-turnos__horarios__tm {
+    width: 200px;
+    height: auto;
+  }
+  .body-turnos__regitro-turnos__horarios__tt {
+    width: 200px;
+    height: auto;
+  }
+  .body-sobre-nosotros__texto {
+    font-size: 22.5px;
+  }
+  .body-socios {
+    padding-top: 22vh;
+    padding-bottom: 22vh;
+  }
+  .body-socios__form {
+    width: 70%;
+    height: 370px;
+  }
+  .footer__face__logo-label__logo__img-dim {
+    width: 35%;
+    height: auto;
+  }
+  .footer__face__logo-label__label {
+    width: 100%;
+    height: auto;
+    font-size: 14px;
+  }
+  .footer__titulo-copyrigth__titulo {
+    font-size: 15px;
+  }
+  .footer__insta__logo-label {
+    grid-template-columns: auto auto;
+  }
+  .footer__insta__logo-label__logo__img-dim {
+    width: 32%;
+    height: auto;
+  }
+  .footer__insta__logo-label__label {
+    width: 40%;
+    height: auto;
+    font-size: 14px;
+  }
+  .footer__titulo-copyrigth__copyrigth {
+    font-size: 10px;
+  }
+}
+/* laptop */
+@media (min-width: 1024px) {
+  .header-mobile {
+    display: none;
+  }
+  .header-desk {
+    width: 100%;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 1fr;
+    border-bottom: 3px solid yellow;
+  }
+  .header-desk__logo-titulo {
+    background-color: black;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .header-desk__logo-titulo__logo {
+    width: 15%;
+    height: auto;
+  }
+  .header-desk__logo-titulo__titulo {
+    width: 20%;
+    height: auto;
+  }
+  .header-desk__frase-nav {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+  .header-desk__frase-nav__frase {
+    width: 100%;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-self: flex-end;
+    font-size: 19px;
+    font-family: "Merienda", cursive;
+    color: white;
+  }
+  .header-desk__frase-nav__nav {
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+  }
+  .header-desk__frase-nav__nav__enlaces-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 3px solid yellow;
+    text-decoration: none;
+    color: yellow;
+    text-align: center;
+    font-size: 16px;
+  }
+  .header-desk__frase-nav__nav__enlaces-header:hover {
+    color: white;
+  }
+  .header-desk__frase-nav__nav__over-enlace {
+    font-size: 13px;
+    padding-bottom: 1px;
+    text-decoration: none;
+    color: yellow;
+    text-align: center;
+  }
+  .body-index {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+  }
+  .body-index__carousel-1 {
+    width: 80%;
+    height: auto;
+  }
+  .body-index__carousel-2 {
+    width: 80%;
+    height: auto;
+  }
+  .body-turnos {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+  .body-turnos__regitro-turnos {
+    width: 60%;
+  }
+  .body-cortes {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    gap: 4vh;
+  }
+  .body-cortes__cortes {
+    width: 80%;
+    height: auto;
+  }
+  .body-sobre-nosotros {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+  .body-sobre-nosotros__texto {
+    width: 60%;
+    height: auto;
+    color: white;
+    text-align: justify;
+    font-size: 22px;
+  }
+  .body-socios {
+    padding-top: 6vh;
+    padding-bottom: 6vh;
+  }
+  .body-socios__form {
+    width: 50%;
+  }
+  .footer {
+    width: 100%;
+    height: 18vh;
+    position: relative;
+  }
+  .footer__face__logo-label__logo__img-dim {
+    width: 30%;
+    height: auto;
+  }
+  .footer__face__logo-label__label {
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+  }
+  .footer__titulo-copyrigth__titulo {
+    font-size: 19px;
+  }
+  .footer__titulo-copyrigth__copyrigth {
+    font-size: 10px;
+  }
+  .footer__insta__logo-label {
+    grid-template-columns: auto auto 10%;
+  }
+  .footer__insta__logo-label__label {
+    width: 100%;
+    height: auto;
+    font-size: 22px;
+  }
+  .footer__insta__logo-label__logo__img-dim {
+    width: 25%;
+    height: auto;
+  }
+}
+@media (min-width: 1440px) {
+  .header-desk__frase-nav__frase {
+    align-self: center;
+    padding-top: 1vh;
+    font-size: 31px;
+  }
+  .header-desk__frase-nav__nav__enlaces-header {
+    font-size: 19px;
+  }
+  .body-turnos__regitro-turnos {
+    padding: 3vh;
+  }
+  .body-turnos__regitro-turnos__h2 {
+    font-size: 30px;
+  }
+  .body-turnos__regitro-turnos__selecc-peluqueros__prop {
+    width: 300px;
+    height: 40px;
+    font-size: 20px;
+  }
+  .ul-selecc-peluqueros {
+    width: 300px;
+    height: auto;
+  }
+  .body-turnos__regitro-turnos__labels {
+    font-size: 25px;
+  }
+  .body-turnos__regitro-turnos__horarios__tm {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .body-turnos__regitro-turnos__horarios__tt {
+    width: 250px;
+    height: 40px;
+    font-size: 18px;
+  }
+  .body-turnos__regitro-turnos__btn-regitrar-turno__prop {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  .body-sobre-nosotros__texto {
+    font-size: 28px;
+  }
+  .body-socios__form__h2-socios {
+    font-size: 35px;
+  }
+  .body-socios__form__label-input-socios {
+    height: 40px;
+    font-size: 27px;
+  }
+  .body-socios__form__btn-socios__prop {
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+}/*# sourceMappingURL=main.css.map */

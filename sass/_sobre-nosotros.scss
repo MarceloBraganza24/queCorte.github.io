@@ -1,0 +1,13 @@
+.body-sobre-nosotros {
+    width: 100%;
+    height: auto;
+    @include dFC;
+    padding-top: 19.5vh;
+    padding-bottom: 19.5vh;
+    &__texto {
+    width: 80%;
+    height: auto;
+    color: white;
+    text-align: justify;
+    }
+}

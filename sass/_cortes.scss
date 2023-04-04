@@ -1,0 +1,14 @@
+.body-cortes {
+    width: 100%;
+    height: auto;  
+    padding-top: 16.5vh;
+    padding-bottom: 16.5vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5vh;
+    &__cortes {
+        width: 100%;
+        height: auto;
+    }
+}
