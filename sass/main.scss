@@ -129,6 +129,13 @@ body {
             flex-direction: column;
             color: white;
             font-size: 12px;
+            font-weight: 600;
+            &__pelu {
+                letter-spacing: 0.15em;
+            }
+            &__queCorte {
+                letter-spacing: 0.35em;
+            }
         } 
         &__copyrigth {
             width: 100%;
@@ -191,8 +198,29 @@ body {
         height: auto;
     }
 
+    .body-turnos__regitro-turnos__h2 {
+        font-size: 20px;
+    }
+
+    .body-turnos__regitro-turnos__selecc-peluqueros__prop {
+        width: 140px;
+        height: 35px;
+    }
+
+    .body-turnos__regitro-turnos__horarios__tm {
+        width: 150px;
+    }
+
+    .body-turnos__regitro-turnos__horarios__tt {
+        width: 150px;
+    }
+
     .body-sobre-nosotros__texto {
-        font-size: 16.5px;
+        font-size: 21px;
+    }
+
+    .body-socios__form {
+        gap: 7vh;
     }
 
     .footer__titulo-copyrigth__titulo {
@@ -205,7 +233,7 @@ body {
 
 }
 
-@media (orientation: landscape) and (max-width: 767px) {
+@media (orientation: landscape){
 
     .header-mobile {
         height: 25vh;
@@ -301,7 +329,7 @@ body {
 
 /* tablet */
 
-@media (min-width: 665px) and (max-width: 1024px) {    
+@media (min-width: 768px) {    
 
     .header-mobile__logo__tamaño {
         width: 35%;

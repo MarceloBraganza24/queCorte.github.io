@@ -2,15 +2,15 @@
     width: 100%;
     height: auto;  
     @include dFC; 
-    padding-top: 22.5vh;
-    padding-bottom: 22.5vh;
+    padding-top: 20vh;
+    padding-bottom: 20vh;
     &__form {
         width: 80%;
         height: auto;
         display: grid;
         grid-template-columns: 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-        gap: 3vh;
+        gap: 6vh;
         &__h2-socios {
             width: 100%;
             height: auto;
@@ -24,23 +24,25 @@
         }
         &__label-input-socios {
             width: 100%;
-            height: 10%;
+            height: auto;
             display: grid;
-            grid-template-columns: 1fr 3fr;
-            gap: 10px;
+            grid-template-columns: 1fr 2fr;
             color: white;
-        }
-        &__wid-hei-socios {
-            width: 100%;
-            height: auto;        
-        }
+            &__label {
+                font-size: 20px;
+            }
+            &__input {
+                height: 100%;
+            }
+        }        
         &__btn-socios {
             width: 100%;
             height: auto;
             @include dFC;
-            &__prop {          
-                font-size: 13.5px;
-                font-weight: 500;
+            &__prop {   
+                height: 40px;       
+                font-size: 18px;
+                font-weight: 700;
                 &:hover {
                     background-color: white;
                     color: black;

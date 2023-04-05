@@ -14,6 +14,7 @@
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
         border: 3px solid white;
         padding: 10px;
+        gap: 1vh;
         &__h2 {
             width: 100%;
             height: auto;
@@ -60,20 +61,18 @@
         }
         &__input-date {
             width: 70%;
-            height: auto;
+            height: 40px;
             @include dFC;
             justify-self: center;
-            margin-top: 1vh; 
         }
         &__horarios {
             width: 100%;
             height: auto;
             @include dFC;
-            margin-top: 2vh;
             gap: 2px;
             &__tm {
                 width: 115px;
-                height: auto;
+                height: 35px;
                 font-size: 13.5px;
                 font-weight: 500;
                 &:hover {
@@ -83,7 +82,7 @@
             }
             &__tt {
                 width: 115px;
-                height: auto;
+                height: 35px;
                 font-size: 13.5px;
                 font-weight: 500;
                 &:hover {
@@ -96,16 +95,19 @@
             width: 100%;
             height: auto;
             display: flex;
-            justify-content: center;
             align-items: end;
-            margin-bottom: .2vh;
             &__prop {
-                font-size: 13.5px;
-                font-weight: 500;
+                width: 150px;
+                height: 40px;
+                border-radius: 10%;
                 background-color: yellow;
                 &:hover {
                     background-color: white;
                     color: black;
+                }
+                &__font {
+                    font-size: 16px;
+                    font-weight: 700;
                 }
             } 
         }        
