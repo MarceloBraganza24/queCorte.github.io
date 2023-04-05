@@ -50,7 +50,7 @@ body {
         height: auto;
         @include dFC;
         &__tamaño {
-            width: 70%;
+            width: 110px;
             height: auto;
         }
     }
@@ -108,13 +108,16 @@ body {
                 height: auto;
                 @include dFC;
                 font-size: 11px;
-                color: white;
-                &:hover {
-                    color: $amarilloQueCorte;
-                }
+                color: white;                
+                &__enlaces-redes {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $amarilloQueCorte;
+                    }
+                }                
             }
-        }
-        
+        }        
     }
     &__titulo-copyrigth {
         width: 100%;
@@ -172,12 +175,15 @@ body {
                 @include dFC;
                 font-size: 11px;
                 color: white;
-                &:hover {
-                    color: $amarilloQueCorte;
+                &__enlaces-redes {
+                    text-decoration: none;
+                    color: white;
+                    &:hover {
+                        color: $amarilloQueCorte;
+                    }
                 }
             }
-        }
-        
+        }        
     }    
 }
 
@@ -189,7 +195,7 @@ body {
     }
 
     .header-mobile__titulo__tamaño {
-        width: 65%;
+        width: 150px;
         height: auto;
     }
 
@@ -233,18 +239,18 @@ body {
 
 }
 
-@media (orientation: landscape){
+@media (orientation: landscape) and (max-width: 767px) {
 
     .header-mobile {
         height: 25vh;
         &__logo {
             &__tamaño {
-                width: 35%;
+                width: 30%;
             }
         }
         &__titulo {
             &__tamaño {
-                width: 40%;
+                width: 50;
             }
         }
         &__nav__wid-dropdown__prop {
@@ -276,7 +282,7 @@ body {
         padding-top: 30vh;
         padding-bottom: 5vh;
         &__texto {
-            font-size: 15px;
+            font-size: 19px;
         }
     }
 
@@ -337,7 +343,7 @@ body {
     }
 
     .header-mobile__titulo__tamaño {
-        width: 50%;
+        width: 100%;
         height: auto;
     }
 
@@ -366,7 +372,7 @@ body {
     }
 
     .body-sobre-nosotros__texto {
-        font-size: 22.5px;
+        font-size: 26px;
     } 
     
     .body-socios {
@@ -374,7 +380,7 @@ body {
         padding-bottom: 22vh;
         &__form {
             width: 70%;
-            height: 370px;
+            height: auto;
         }
     }
 
@@ -472,7 +478,8 @@ body {
                     text-align: center;
                     font-size: 16px;                   
                     &:hover {
-                        color: white;
+                        background-color: yellow;
+                        color: black;
                     }
                 }       
                 &__over-enlace {
@@ -533,7 +540,7 @@ body {
         height: auto;
         color: white;
         text-align: justify;
-        font-size: 22px;
+        font-size: 24px;
         }
     }
 
@@ -577,12 +584,9 @@ body {
             }
         }  
     }
-
 }
 
-@media (min-width: 1440px) {
-
-    
+@media (min-width: 1440px) {    
 
     .header-desk__frase-nav__frase {
         align-self: center;
@@ -630,14 +634,14 @@ body {
     }
 
     .body-turnos__regitro-turnos__btn-regitrar-turno__prop {
-        width: 100%;
+        width: 500px;
         height: 40px;
         font-size: 20px;
         font-weight: bold;
     }
 
     .body-sobre-nosotros__texto {
-        font-size: 28px;
+        font-size: 33px;
     }
 
     .body-socios__form__h2-socios {
@@ -646,7 +650,10 @@ body {
 
     .body-socios__form__label-input-socios {
         height: 40px;
-        font-size: 27px;
+        font-size: 20px;
+        &__label {
+            font-size: 30px;
+        }
     }
 
     .body-socios__form__btn-socios__prop {

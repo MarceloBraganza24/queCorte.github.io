@@ -206,6 +206,8 @@
   color: white;
 }
 .body-socios__form__label-input-socios__label {
+  display: flex;
+  align-items: center;
   font-size: 20px;
 }
 .body-socios__form__label-input-socios__input {
@@ -271,7 +273,7 @@ body {
   align-items: center;
 }
 .header-mobile__titulo__tamaño {
-  width: 70%;
+  width: 110px;
   height: auto;
 }
 .header-mobile__nav {
@@ -338,7 +340,11 @@ body {
   font-size: 11px;
   color: white;
 }
-.footer__face__logo-label__label:hover {
+.footer__face__logo-label__label__enlaces-redes {
+  text-decoration: none;
+  color: white;
+}
+.footer__face__logo-label__label__enlaces-redes:hover {
   color: yellow;
 }
 .footer__titulo-copyrigth {
@@ -408,7 +414,11 @@ body {
   font-size: 11px;
   color: white;
 }
-.footer__insta__logo-label__label:hover {
+.footer__insta__logo-label__label__enlaces-redes {
+  text-decoration: none;
+  color: white;
+}
+.footer__insta__logo-label__label__enlaces-redes:hover {
   color: yellow;
 }
 
@@ -418,7 +428,7 @@ body {
     height: auto;
   }
   .header-mobile__titulo__tamaño {
-    width: 65%;
+    width: 150px;
     height: auto;
   }
   .header-mobile__nav__wid-dropdown__prop {
@@ -451,15 +461,15 @@ body {
     font-size: 9px;
   }
 }
-@media (orientation: landscape) {
+@media (orientation: landscape) and (max-width: 767px) {
   .header-mobile {
     height: 25vh;
   }
   .header-mobile__logo__tamaño {
-    width: 35%;
+    width: 30%;
   }
   .header-mobile__titulo__tamaño {
-    width: 40%;
+    width: 50;
   }
   .header-mobile__nav__wid-dropdown__prop {
     width: 115px;
@@ -486,7 +496,7 @@ body {
     padding-bottom: 5vh;
   }
   .body-sobre-nosotros__texto {
-    font-size: 15px;
+    font-size: 19px;
   }
   .body-socios {
     padding-top: 35vh;
@@ -534,7 +544,7 @@ body {
     height: auto;
   }
   .header-mobile__titulo__tamaño {
-    width: 50%;
+    width: 100%;
     height: auto;
   }
   .header-mobile__nav__wid-dropdown__prop {
@@ -560,7 +570,7 @@ body {
     height: auto;
   }
   .body-sobre-nosotros__texto {
-    font-size: 22.5px;
+    font-size: 26px;
   }
   .body-socios {
     padding-top: 22vh;
@@ -568,7 +578,7 @@ body {
   }
   .body-socios__form {
     width: 70%;
-    height: 370px;
+    height: auto;
   }
   .footer__face__logo-label__logo__img-dim {
     width: 35%;
@@ -662,7 +672,8 @@ body {
     font-size: 16px;
   }
   .header-desk__frase-nav__nav__enlaces-header:hover {
-    color: white;
+    background-color: yellow;
+    color: black;
   }
   .header-desk__frase-nav__nav__over-enlace {
     font-size: 13px;
@@ -720,7 +731,7 @@ body {
     height: auto;
     color: white;
     text-align: justify;
-    font-size: 22px;
+    font-size: 24px;
   }
   .body-socios {
     padding-top: 6vh;
@@ -800,20 +811,23 @@ body {
     font-size: 18px;
   }
   .body-turnos__regitro-turnos__btn-regitrar-turno__prop {
-    width: 100%;
+    width: 500px;
     height: 40px;
     font-size: 20px;
     font-weight: bold;
   }
   .body-sobre-nosotros__texto {
-    font-size: 28px;
+    font-size: 33px;
   }
   .body-socios__form__h2-socios {
     font-size: 35px;
   }
   .body-socios__form__label-input-socios {
     height: 40px;
-    font-size: 27px;
+    font-size: 20px;
+  }
+  .body-socios__form__label-input-socios__label {
+    font-size: 30px;
   }
   .body-socios__form__btn-socios__prop {
     height: 40px;
