@@ -239,7 +239,7 @@ body {
 
 }
 
-@media (orientation: landscape) and (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 665px) {
 
     .header-mobile {
         height: 25vh;
@@ -250,7 +250,7 @@ body {
         }
         &__titulo {
             &__tamaño {
-                width: 50;
+                width: 100%;
             }
         }
         &__nav__wid-dropdown__prop {

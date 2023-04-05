@@ -461,7 +461,7 @@ body {
     font-size: 9px;
   }
 }
-@media (orientation: landscape) and (max-width: 767px) {
+@media (orientation: landscape) and (max-width: 665px) {
   .header-mobile {
     height: 25vh;
   }
@@ -469,7 +469,7 @@ body {
     width: 30%;
   }
   .header-mobile__titulo__tamaño {
-    width: 50;
+    width: 100%;
   }
   .header-mobile__nav__wid-dropdown__prop {
     width: 115px;
